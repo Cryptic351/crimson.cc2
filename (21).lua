@@ -1,4 +1,3 @@
---[[ Protected by Lua Guard ]]
 
 ( function (...) if not game:IsLoaded() then game.Loaded:Wait() end
  local Players = game:GetService("\080\108\097\121\101\114\115") local TweenService = game:GetService("\084\119\101\101\110\083\101\114\118\105\099\101") local UserInputService = game:GetService("\085\115\101\114\073\110\112\117\116\083\101\114\118\105\099\101") local SoundService = game:GetService("\083\111\117\110\100\083\101\114\118\105\099\101") local RunService = game:GetService("\082\117\110\083\101\114\118\105\099\101") local _lllIIIllIl = Players.LocalPlayer local _lIlIlIIlll = _lllIIIllIl:WaitForChild("\080\108\097\121\101\114\071\117\105") local _IIlIIIlIIl, resetThread, currentCharacter, resetSuccessful, stopResetSequence, cameraLocked, lockedCameraCFrame = false, nil, nil, false, false, false, nil local function _lIIIlIIlIl() if _IIlIIIlIIl then return end
